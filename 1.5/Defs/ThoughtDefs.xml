@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThoughtDef>
+        <defName>Addie_AccostaPopThought</defName>
+        <thoughtClass>ThoughtSituational_AccostaPop</thoughtClass>
+        <workerClass>ThoughtWorker_AccostaPop</workerClass>
+        <stages>
+        <li>
+            <label>alone</label>
+            <description>I'm here with the only person I can trust. Myself.</description>
+            <baseMoodEffect>12</baseMoodEffect>
+        </li>
+        <li>
+            <label>small group</label>
+            <description>It's us versus the world.</description>
+            <baseMoodEffect>6</baseMoodEffect>
+        </li>
+        <li>
+            <label>unfamiliar faces</label>
+            <description>there's a lot of new faces around here. what are they hiding from us?</description>
+            <baseMoodEffect>-4</baseMoodEffect>
+        </li>
+        <li>
+            <label>paranoia</label>
+            <description>Traitors... traitors all around...</description>
+            <baseMoodEffect>-8</baseMoodEffect>
+        </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

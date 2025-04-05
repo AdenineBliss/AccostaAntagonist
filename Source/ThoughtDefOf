@@ -1,0 +1,15 @@
+using RimWorld;
+
+namespace AddieStorytellers
+{
+    [DefOf]
+    public static class ThoughtDefOf {
+        public static ThoughtDef Addie_AccostaPopThought;
+
+        static ThoughtDefOf()
+        {
+            DefOfHelper.EnsureInitializedInCtor(typeof(ThoughtDefOf));
+        }
+
+    }
+}
