@@ -2,8 +2,7 @@
 <Defs>
     <ThoughtDef>
         <defName>Addie_AccostaPopThought</defName>
-        <thoughtClass>ThoughtSituational_AccostaPop</thoughtClass>
-        <workerClass>ThoughtWorker_AccostaPop</workerClass>
+        <workerClass>AddieStorytellers.ThoughtWorker_AccostaPop</workerClass>
         <stages>
         <li>
             <label>alone</label>
@@ -18,12 +17,12 @@
         <li>
             <label>unfamiliar faces</label>
             <description>there's a lot of new faces around here. what are they hiding from us?</description>
-            <baseMoodEffect>-4</baseMoodEffect>
+            <baseMoodEffect>-10</baseMoodEffect>
         </li>
         <li>
             <label>paranoia</label>
             <description>Traitors... traitors all around...</description>
-            <baseMoodEffect>-8</baseMoodEffect>
+            <baseMoodEffect>-20</baseMoodEffect>
         </li>
         </stages>
     </ThoughtDef>
